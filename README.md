@@ -64,7 +64,7 @@ dependencies: [
     .package(url: "https://github.com/amzn/smoke-framework.git", from: "2.0.0")
 ]
 
-.target(name: ..., dependencies: [
+target(name: ..., dependencies: [
     ..., 
     .product(name: "SmokeOperationsHTTP1Server", package: "smoke-framework"),
 ]),
